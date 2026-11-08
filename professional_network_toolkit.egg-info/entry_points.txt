@@ -1,0 +1,2 @@
+[console_scripts]
+network-vlsm = network_toolkit.cli:main
