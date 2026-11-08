@@ -1,5 +1,22 @@
 #!/usr/bin/env python3
+"""
+Professional IP Calculator
+--------------------------
+IPv4/IPv6 subnet calculator inspired by the feature set of jodies.de/ipcalc.
 
+Features:
+- IPv4 and IPv6 address/interface parsing
+- CIDR prefix and IPv4 dotted-decimal netmask input
+- Network, netmask, wildcard, broadcast and usable host range
+- Private/public, loopback, multicast, link-local and reserved classification
+- Binary representation for IPv4
+- Subnet splitting and supernet calculation
+- JSON output
+- Input validation and safe subnet output limits
+
+Python: 3.9+
+No third-party dependencies.
+"""
 
 from __future__ import annotations
 
