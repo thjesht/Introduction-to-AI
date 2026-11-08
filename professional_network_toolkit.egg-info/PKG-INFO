@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: professional-network-toolkit
+Version: 1.1.0
+Summary: Professional IPv4 VLSM calculator and network engineering toolkit extension
+Requires-Python: >=3.10
+Provides-Extra: api
+Requires-Dist: fastapi>=0.110; extra == "api"
+Requires-Dist: uvicorn[standard]>=0.27; extra == "api"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
